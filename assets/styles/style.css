@@ -432,6 +432,10 @@ form button {
         gap: 5rem;
     }
 
+    .contact{
+        align-items: center;
+    }
+
     footer {
         flex-direction: column;
     }
