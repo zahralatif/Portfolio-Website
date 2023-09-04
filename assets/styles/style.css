@@ -296,6 +296,7 @@ footer {
     display: flex;
     gap: 6.25rem;
     justify-content: space-around;
+    margin: 2rem;
 }
 
 .contact {
