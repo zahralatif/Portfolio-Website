@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 5rem;
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1,
+nav h1 a {
+    color: var(--Black, #2D2D2D);
+    font-family: Epilogue;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.875rem;
+    text-decoration-line: underline;
+    margin: 1.53rem 2.77rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1.53rem 2rem;
+}
+
+nav ul li a {
+    color: var(--Black, #2D2D2D);
+    font-family: Epilogue;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6875rem;
+    text-decoration-line: underline;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.main-image {
+    margin: 5.81rem auto;
+}
+
+.main-content h6 {
+    color: var(--Black, #2D2D2D);
+
+    /* Subtitle */
+    font-family: Epilogue;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 150% */
+}
+
+.main-content h1 {
+    color: var(--Black, #2D2D2D);
+
+    /* H1 */
+    font-family: Epilogue;
+    text-align: center;
+    font-size: 6.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main-content p {
+    color: var(--Black, #2D2D2D);
+    width: 26rem;
+    /* Body text */
+    font-family: Epilogue;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158.824%;
+    /* 158.824% */
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skill-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 8rem auto;
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16rem;
+    gap: 4rem;
+}
+
+.skill-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.skill-card-content h3 {
+    color: var(--Black, #2D2D2D);
+    text-align: center;
+    align-self: stretch;
+
+    /* H3 */
+    font-family: Epilogue;
+    font-size: 1.6875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.625rem;
+    /* 155.556% */
+}
+
+.skill-card-content p {
+    color: var(--Black, #2D2D2D);
+    text-align: center;
+
+    /* Body text */
+    font-family: Epilogue;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6875rem;
+    /* 158.824% */
+}
+
+.work h2 {
+    color: var(--Black, #2D2D2D);
+    text-align: center;
+    margin-bottom: 2rem;
+
+    /* H2 */
+    font-family: Epilogue;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.625rem;
+    /* 131.25% */
+}
+
+.work p {
+    color: var(--Black, #2D2D2D);
+
+    /* Body text */
+    font-family: Epilogue;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6875rem;
+    /* 158.824% */
+}
+
+.work-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.work-card {
+    width: 20.625rem;
+    height: 26.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.work-card img {
+    width: 20.625rem;
+    height: 20.625rem;
+}
+
+.clients {
+    display: flex;
+    margin: 6rem auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 3.4rem;
+    align-self: stretch;
+}
+
+.clients h2 {
+    color: var(--Black, #2D2D2D);
+    text-align: center;
+    font-family: Epilogue;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.clients-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.clients-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20.625rem;
+    height: 25rem;
+    background: var(--Grey, #F3F3F3);
+}
+
+.clients-card p {
+    color: var(--Black, #2D2D2D);
+    padding: 1.5rem;
+
+    /* Subtitle */
+    font-family: Epilogue;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.875rem;
+    /* 150% */
+}
+
+.clients-data {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.clients-data .img {
+    margin: auto auto 4rem 2rem;
+}
+
+.client-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 3rem;
+}
+
+.client-info p {
+    color: var(--Black, #2D2D2D);
+    padding: 0.2rem 2rem 2rem 2rem;
+
+    /* Body text */
+    font-family: Epilogue;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6875rem;
+    /* 158.824% */
+}
+
+footer {
+    display: flex;
+    gap: 6.25rem;
+    justify-content: space-around;
+}
+
+.contact {
+    display: flex;
+    height: 19.04956rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact h2 {
+    color: var(--Black, #2D2D2D);
+    width: 20.74881rem;
+
+    /* H2 */
+    font-family: Epilogue;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.625rem;
+    /* 131.25% */
+}
+
+.contact p {
+    color: #2D2D2D;
+    width: 22.48113rem;
+
+    /* Body text */
+    font-family: Epilogue;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6875rem;
+    /* 158.824% */
+}
+
+.social-links {
+    width: 14.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+form {
+    display: flex;
+    width: 33.125rem;
+    gap: 1.5rem;
+    flex-direction: column;
+
+}
+
+form input,
+form textarea {
+    background: #F3F3F3;
+    width: 33.125rem;
+    height: 4.375rem;
+    border: 0;
+    color: #2D2D2D;
+    padding: 2rem;
+
+    /* Body text */
+    font-family: Epilogue;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6875rem;
+    /* 158.824% */
+}
+
+form textarea {
+    width: 33.125rem;
+    height: 13.4375rem;
+    flex-shrink: 0;
+    background: #F3F3F3;
+
+}
+
+form button {
+    width: 14.6875rem;
+    height: 5rem;
+    background-color: var(--Black, #2D2D2D);
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Epilogue;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.875rem;
+    /* 150% */
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        width: fit-content;
+    }
+
+    nav,
+    nav h1,
+    nav h1 a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    main {
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .main-content {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logos {
+        gap: 5rem;
+        margin: auto 9rem;
+        justify-content: space-between;
+    }
+
+    .skill-cards {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .clients-cards {
+        gap: 5rem;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    form {
+        justify-content: center;
+        align-items: center;
+    }
+
+    form input,
+    form textarea {
+        width: 20rem;
+    }
+}
