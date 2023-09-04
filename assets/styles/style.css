@@ -171,6 +171,18 @@ main {
     /* 131.25% */
 }
 
+.work h3 {
+    color: var(--Black, #2D2D2D);
+
+    /* Subtitle */
+    font-family: Epilogue;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.875rem;
+    /* 150% */
+}
+
 .work p {
     color: var(--Black, #2D2D2D);
 
